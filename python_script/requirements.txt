@@ -1,1 +1,1 @@
-pandas sqlalchemy
+pandas sqlalchemy psycopg2
