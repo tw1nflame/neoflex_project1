@@ -1,3 +1,5 @@
 python_script/venv
 python_script/__pycache__
 *.csv
+*.docx
+.gitignore
