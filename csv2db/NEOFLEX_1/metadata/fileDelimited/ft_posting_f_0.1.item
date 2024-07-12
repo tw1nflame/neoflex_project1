@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_iL3bwT3fEe-owpDMGDYhow" name="ft_posting_f" dataPackage="_iL3bwj3fEe-owpDMGDYhow" Server="Localhost 127.0.0.1" FilePath="C:/Users/пк/Desktop/флекс/проект/ft_posting_f.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_iL3bwj3fEe-owpDMGDYhow" name="default" dataManager="_iL3bwT3fEe-owpDMGDYhow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_iL3bwz3fEe-owpDMGDYhow" id="_XzsuED3fEe-owpDMGDYhow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iL3bxD3fEe-owpDMGDYhow" label="OPER_DATE" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iL3bxT3fEe-owpDMGDYhow" label="CREDIT_ACCOUNT_RK" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iL3bxj3fEe-owpDMGDYhow" label="DEBET_ACCOUNT_RK" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iL3bxz3fEe-owpDMGDYhow" label="CREDIT_AMOUNT" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iL3byD3fEe-owpDMGDYhow" label="DEBET_AMOUNT" length="8" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

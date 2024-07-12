@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_l5_IwD3eEe-owpDMGDYhow" name="ft_balance" dataPackage="_l5_IwT3eEe-owpDMGDYhow" Server="Localhost 127.0.0.1" FilePath="C:/Users/пк/Desktop/флекс/проект/ft_balance_f.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_l5_IwT3eEe-owpDMGDYhow" name="default" dataManager="_l5_IwD3eEe-owpDMGDYhow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_l5_Iwj3eEe-owpDMGDYhow" id="_ZIGxsD3eEe-owpDMGDYhow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l5_Iwz3eEe-owpDMGDYhow" label="ON_DATE" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l5_IxD3eEe-owpDMGDYhow" label="ACCOUNT_RK" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l5_IxT3eEe-owpDMGDYhow" label="CURRENCY_RK" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_l5_Ixj3eEe-owpDMGDYhow" label="BALANCE_OUT" length="12" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

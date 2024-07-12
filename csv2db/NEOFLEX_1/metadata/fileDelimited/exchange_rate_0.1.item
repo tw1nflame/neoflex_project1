@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_4IRWwT3hEe-owpDMGDYhow" name="exchange_rate" dataPackage="_4IRWwj3hEe-owpDMGDYhow" Server="Localhost 127.0.0.1" FilePath="C:/Users/пк/Desktop/флекс/проект/md_exchange_rate_d.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_4IRWwj3hEe-owpDMGDYhow" name="default" dataManager="_4IRWwT3hEe-owpDMGDYhow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_4IRWwz3hEe-owpDMGDYhow" id="_sKjAgD3hEe-owpDMGDYhow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4IRWxD3hEe-owpDMGDYhow" label="DATA_ACTUAL_DATE" length="10" talendType="id_Date" key="true" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4IRWxT3hEe-owpDMGDYhow" label="DATA_ACTUAL_END_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4IRWxj3hEe-owpDMGDYhow" label="CURRENCY_RK" length="9" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4IRWxz3hEe-owpDMGDYhow" label="REDUCED_COURCE" length="8" precision="6" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_4IRWyD3hEe-owpDMGDYhow" label="CODE_ISO_NUM" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

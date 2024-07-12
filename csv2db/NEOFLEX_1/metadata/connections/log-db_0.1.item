@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_7wlK4D6JEe-2QbTUnKcXoA" name="log-db" id="_vBTb4D6JEe-2QbTUnKcXoA" label="log-db" dataPackage="_MraCcEA5Ee-_bMJBm8JPtA" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/project1-task" dbVersionString="V9_X" Port="5432" Username="log_user" Password="RX/CTwlUNiA=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="project1-task" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="logs">
+    <taggedValue xmi:id="_7wlK4T6JEe-2QbTUnKcXoA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_7w4F0D6JEe-2QbTUnKcXoA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_7w4F0T6JEe-2QbTUnKcXoA" tag="Status" value=""/>
+    <taggedValue xmi:id="_7w4F0j6JEe-2QbTUnKcXoA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_7w4F0z6JEe-2QbTUnKcXoA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_7w4F1D6JEe-2QbTUnKcXoA" tag="Description" value=""/>
+    <taggedValue xmi:id="_7w4F1T6JEe-2QbTUnKcXoA" tag="Author" value=""/>
+    <taggedValue xmi:id="_7w4F1j6JEe-2QbTUnKcXoA" tag="otherParameter"/>
+    <taggedValue xmi:id="_7xLAwD6JEe-2QbTUnKcXoA" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_7xLAwT6JEe-2QbTUnKcXoA" tag="DB ProductVersion" value="16.3"/>
+    <taggedValue xmi:id="_7xLAwj6JEe-2QbTUnKcXoA" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_7wlK4j6JEe-2QbTUnKcXoA" key="CONN_PARA_KEY_USERNAME" value="log_user"/>
+    <parameters xmi:id="_B2sV8EApEe-gt6i-jPsJlQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_MraCcEA5Ee-_bMJBm8JPtA" name="project1-task" dataManager="_7wlK4D6JEe-2QbTUnKcXoA">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_MraCcUA5Ee-_bMJBm8JPtA" name="logs"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

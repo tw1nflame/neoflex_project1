@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_eVL9wT3iEe-owpDMGDYhow" name="ledger_account" dataPackage="_eVL9wj3iEe-owpDMGDYhow" Server="Localhost 127.0.0.1" FilePath="C:/Users/пк/Desktop/флекс/проект/md_ledger_account_s.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_eVL9wj3iEe-owpDMGDYhow" name="default" dataManager="_eVL9wT3iEe-owpDMGDYhow">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_eVL9wz3iEe-owpDMGDYhow" id="_MELrkD3iEe-owpDMGDYhow" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9xD3iEe-owpDMGDYhow" label="CHAPTER" length="2" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9xT3iEe-owpDMGDYhow" label="CHAPTER_NAME" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9xj3iEe-owpDMGDYhow" label="SECTION_NUMBER" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9xz3iEe-owpDMGDYhow" label="SECTION_NAME" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9yD3iEe-owpDMGDYhow" label="SUBSECTION_NAME" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9yT3iEe-owpDMGDYhow" label="LEDGER1_ACCOUNT" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9yj3iEe-owpDMGDYhow" label="LEDGER1_ACCOUNT_NAME" length="89" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9yz3iEe-owpDMGDYhow" label="LEDGER_ACCOUNT" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9zD3iEe-owpDMGDYhow" label="LEDGER_ACCOUNT_NAME" length="288" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9zT3iEe-owpDMGDYhow" label="CHARACTERISTIC" length="2" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9zj3iEe-owpDMGDYhow" label="START_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eVL9zz3iEe-owpDMGDYhow" label="END_DATE" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
